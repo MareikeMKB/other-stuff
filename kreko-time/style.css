@@ -1,0 +1,27 @@
+img
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#box
+{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 2%;
+}
+
+.buttons
+{
+    border-radius: 40px;
+    background-color:burlywood;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+body
+{
+    background-color:antiquewhite;
+}
