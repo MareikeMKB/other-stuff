@@ -44,6 +44,17 @@ let button = document.createElement('button');
        }
     })
 
+    let test: Task= {
+        name: "Platzhalter1"
+    }
+    let test2: Task= {
+        name: "Platzhalter2"
+    } 
+    
+    
+    showTask(test, 'aufgabe', 0);
+    showTask(test2, 'aufgabe', 1);
+
 
 // Maybe copy paste everything and change all variable names for all the questions and answers
 //Definitely not pretty but it would work probably

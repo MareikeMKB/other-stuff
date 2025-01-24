@@ -38,6 +38,14 @@ button.addEventListener('click', function () {
         this.parentNode.removeChild(this);
     }
 });
+let test = {
+    name: "Platzhalter1"
+};
+let test2 = {
+    name: "Platzhalter2"
+};
+showTask(test, 'aufgabe', 0);
+showTask(test2, 'aufgabe', 1);
 // Maybe copy paste everything and change all variable names for all the questions and answers
 //Definitely not pretty but it would work probably
 document.getElementById("link")?.addEventListener('click', function () {
